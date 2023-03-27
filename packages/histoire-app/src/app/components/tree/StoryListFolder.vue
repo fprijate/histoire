@@ -25,7 +25,7 @@ function toggleOpen () {
 }
 
 const folderPadding = computed(() => {
-  return (props.depth +1) * 24 + 'px'
+  return (props.depth + 1) * 32 + 'px'
 })
 </script>
 
